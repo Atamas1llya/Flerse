@@ -1,0 +1,38 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-card {
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+
+.user-image {
+  overflow: hidden;
+
+  border-radius: 50%;
+
+  text-align: center;
+  font-weight: 300;
+  text-transform: capitalize;
+
+  .flex-center;
+  flex-shrink: 0;
+
+  img {
+    width: auto;
+    height: 100%;
+  }
+
+  &.char {
+    border: 3px solid rgba(0,0,0,.67);
+    color: rgba(0,0,0,.72);
+
+    span {
+      margin: 0;
+      font-weight: 400;
+    }
+  }
+}

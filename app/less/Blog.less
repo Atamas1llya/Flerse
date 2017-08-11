@@ -1,0 +1,75 @@
+.user-blog {
+  padding: 5px;
+
+  article {
+    margin: 1.2vw 0;
+  }
+
+  .blog-info {
+    .flex-center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .user-image {
+      width: 10vh;
+      height: 10vh;
+      font-size: 5vh;
+      margin: 0 2vh 0 0;
+    }
+
+    .blog-name {
+      min-height: 10vh;
+      padding: 10px 0 10px 0;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      h5, h3 {
+        margin: 0.5vh 0;
+      }
+
+      h3 {
+        font-size: 3.5vh;
+      }
+
+      h5 {
+        font-size: 2vh;
+      }
+    }
+
+
+  }
+
+  .blog-actions {
+    .btn-group {
+      margin: 5px 10px 5px 0;
+    }
+  }
+
+  .blog-new-article {
+    textarea {
+      resize: vertical;
+      height: auto;
+      min-height: 100px;
+    }
+    #blog-new-title {
+      font-weight: bold;
+      color: #555555;
+      font-size: 20px;
+    }
+    .btn {
+      margin: 5px 10px 5px 0;
+
+      &.go-to-editor {
+        background: #212121;
+        color: white;
+      }
+    }
+
+
+  }
+
+}
